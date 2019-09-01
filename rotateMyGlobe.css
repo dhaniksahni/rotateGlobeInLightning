@@ -1,0 +1,25 @@
+.THIS
+{
+    background-color: #454a58;
+    height:500px;
+}
+.THIS #chartdiv {
+    width: 100%;
+    height: 100px;
+    max-width:100%;
+    background-color:#454a58;
+}
+
+.THIS.chartwrapper {
+    width: 70%;
+    margin: 30px auto;
+    position: relative;
+    padding-bottom: 50%;
+}
+
+.THIS.chartdiv {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px dotted #ccc;
+}

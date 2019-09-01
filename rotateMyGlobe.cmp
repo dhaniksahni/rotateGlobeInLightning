@@ -1,0 +1,8 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	<ltng:require scripts="{!join(',', 
+    $Resource.amcharts + '/core.js', 
+	$Resource.amcharts + '/maps.js', 
+ 	$Resource.amcharts + '/worldLow.js',                            
+    $Resource.amcharts + '/animated.js')}" afterScriptsLoaded="{!c.afterScriptsLoaded}" />
+    <div id="chartdiv"></div>
+</aura:component>
